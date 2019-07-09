@@ -1,0 +1,16 @@
+{
+  "main.css": "bundle.css",
+  "main.js": "bundle.js",
+  "vendors~main.js": "vendors~main.bundle.js",
+  "tivicay.png": "3f5b76b141233c251fe9f03618306bbd.png",
+  "sinciguena.png": "6db6a32e7842ba37f967d24cb5e9b09f.png",
+  "me.png": "6e4c3993c5891a68f351db517ad8d363.png",
+  "boostrix.png": "71e2af7f7817941a45fee9733d946ca6.png",
+  "wdupload.png": "8ea60932c4da825eeadc761e02e014c3.png",
+  "merck.png": "961456104379bde7fbb4bd2db11d2a5d.png",
+  "thankyou.png": "a1338170f8da5d51b3ea1f9bfa103de4.png",
+  "stockvideos.png": "d23d1f75b37973a50a1be81ceeb5bfc7.png",
+  "gsk.png": "d973b0ce82e9e97387d84501adaf53b7.png",
+  "novak.png": "f4bf038044bfb9ede28dec585fbd3eef.png",
+  "index.html": "index.html"
+}
