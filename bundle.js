@@ -456,7 +456,8 @@ const buildMarkUp = () => {
                         <img src="${_assets_img_me_png__WEBPACK_IMPORTED_MODULE_2___default.a}">
                     </figure>
                     <h1 class="title is-1 is-spaced">Dipak Dhanawade</h1>
-                    <h2 class="subtitle content">Hi, I am a <span class="title is-3 neon">Web Developer</span>.<br /> I got <span class="title is-3 neon">4 years of experience</span> in this field.<br /> Currently, I am working as <span class="title is-3 neon">Technology Specialty</span> in <span class="title is-3 neon">Infosys BPM Pvt Ltd.</span></h2>
+                    <h2 class="subtitle content">Graduated from <span class="title is-3 neon">Pune University
+     in 2015</span>. Throughout my career, I have consistently worked in small teams, which has allowed me to take on tasks beyond my core responsibilities and gain an adequate understanding of various projects.<br>With <span class="title is-3 neon">9 years of overall experience</span>, including <span class="title is-3 neon">4 years as a Full Stack Developer</span>, I <span class="title is-3 neon">started as a Front End Developer and transitioned to Full Stack Development</span>. I <code>specialize in JavaScript and the React/Redux framework for front-end development and have built web APIs using the .NET framework</code> for the back-end. My experience includes a strong focus on collaboration and adaptability within small team environments.</h2>
                 </div>
             </div>
         </header>
