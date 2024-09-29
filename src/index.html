@@ -9,7 +9,9 @@
 </head>
 
 <body class="">
-  <nav class="col-md-3 position-fixed sidebar-container d-md-flex">
+  <button class="js-menubtn btn btn-default rounded floating-btn fs-3" onclick="openMenu()" data-menu-open="false"><i class=" bi-list"></i><i class=" bi-x-lg"></i>
+  </button>
+  <nav class="col-md-3 position-fixed sidebar-container d-md-flex" data-visible="false">
     <div class="sidebar-menu fs-3 lh-lg">
       <a href="#first-container" onclick="moveToNext(1)" data-screen="1">Intro</a>
       <a href="#second-container" onclick="moveToNext(2)" data-screen="2">My
@@ -255,8 +257,28 @@
   </div>
   <script>
     function moveToNext(gotoScreenNum) {
+       var container = document.querySelector(".sidebar-container");
+      var btn = document.querySelector("[data-menu-open]");
+      container.classList.remove("show");
+      container.setAttribute("data-visible", false);
+      btn.setAttribute("data-menu-open", false);
       var nextScreen = document.querySelector(`[data-screen="${gotoScreenNum}"]`);
       nextScreen.scrollIntoView();
+    }
+    function openMenu() {
+       var container = document.querySelector(".sidebar-container");
+      var btn = document.querySelector("[data-menu-open]");
+
+       if (container.getAttribute("data-visible") == "false") {
+        container.classList.add("show");
+        container.setAttribute("data-visible", "true");
+        btn.setAttribute("data-menu-open", "true");
+       }
+       else {
+        container.classList.remove("show");
+        container.setAttribute("data-visible", "false");
+        btn.setAttribute("data-menu-open", "false");
+       }
     }
   </script>
   <script type="module" src="./js/main.js"></script>
